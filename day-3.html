@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      .main {
+        float: right;
+        width: 70%;
+      }
+
+      .body:after {
+        content: "";
+        clear: both;
+        display: table;
+      }
+
+      .sidebar {
+        width: 30%;
+        float: left;
+      }
+
+      .triangle {
+        border-color: red;
+        border-width: 30px;
+        border-top-color: transparent;
+        /* border-bottom-color: blue; */
+      }
+
+      .header {
+        background: cyan;
+      }
+
+      @media screen and (max-width: 400px) {
+        .sidebar {
+          display: none;
+        }
+
+        .main {
+          width: 100%;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="triangle">&nbsp;</div>
+
+    <div class="header">
+      <img src="C-III.jpg" alt="" width="90" />
+    </div>
+
+    <div class="body">
+      <div class="sidebar">
+        <ul>
+          <li>Lorem, ipsum dolor.</li>
+          <li>Eum, blanditiis provident?</li>
+          <li>Cumque, vel provident!</li>
+          <li>Minus, quaerat modi.</li>
+          <li>Obcaecati, ut neque!</li>
+        </ul>
+      </div>
+      <div class="main">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis
+          ratione excepturi reiciendis debitis, necessitatibus, harum voluptatum
+          eos veniam facere explicabo saepe perspiciatis, maxime quisquam
+          tenetur sunt? Repudiandae laborum adipisci illum.
+        </p>
+        <p>
+          Porro velit nisi delectus, necessitatibus molestiae provident earum
+          dolores soluta placeat exercitationem. Commodi enim vero labore.
+          Consequatur nesciunt ex, aliquid autem dolore a molestiae iusto harum
+          temporibus dignissimos necessitatibus optio.
+        </p>
+        <p>
+          Vel facilis rem ipsa pariatur est dolores consequuntur natus atque
+          temporibus corrupti quos ipsum magnam sequi reiciendis doloremque,
+          fugiat mai necessitatibus blanditiis quisquam explicabo cumque
+          consectetur, dicta, possimus eveniet. Excepturi!
+        </p>
+      </div>
+    </div>
+
+    <div class="footer">&copy; Example Website</div>
+
+    <!-- <ul>
+      <li>About</li>
+      <li>Our Work</li>
+      <li>Our Team</li>
+      <li>Contact</li>
+    </ul> -->
+  </body>
+</html>
