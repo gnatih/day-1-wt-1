@@ -1,0 +1,41 @@
+var myvar;
+
+
+// var myvar = "Hello World";
+var anothervar = 'Hello worlds!!';
+
+let myvar = "My New Variable";
+const myconst = "This value is not supposed to change!";
+
+
+var is_old = false;
+var age = 40;
+
+var carbon_emission = 0.0002221;
+...
+
+age = 100;
+myvar = "Something else";
+myconst = ""
+
+  - string
+  - numbers
+  - boolean
+
+---
+
+
+if (age < 30) {
+
+} else {
+
+}
+
+---
+
+for (var i = 0; i < 10; i+=2) {
+
+}
+
+
+
